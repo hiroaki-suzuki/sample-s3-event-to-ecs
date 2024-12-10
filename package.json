@@ -1,0 +1,11 @@
+{
+  "name": "sample-s3-event-to-ecs",
+  "version": "1.0.0",
+  "scripts": {
+    "cdk:deploy:dev": "cd cdk && npm run cdk -- deploy -c environment=dev",
+    "cdk:destroy:dev": "cd cdk && npm run cdk -- destroy -c environment=dev"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
+  }
+}
